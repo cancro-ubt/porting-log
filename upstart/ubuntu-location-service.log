@@ -1,0 +1,7 @@
+	name -> com.wolfpack.geoclue2.Service.Provider
+	path -> /com/wolfpack/geoclue2/Service/Provider
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1130 15:39:38.290588  1502 boost_ptree_settings.cpp:36] Could not parse configuration file /var/lib/ubuntu-location-service/config.ini: /var/lib/ubuntu-location-service/config.ini: cannot open file
+Instantiating and configuring: gps::Provider
+Instantiating and configuring: remote::Provider
+Attempted to unregister path (path[0] = core path[1] = trust) which isn't registered

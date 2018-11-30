@@ -1,0 +1,961 @@
+2018-11-30T15:39:29.475194+00:00 ubuntu-phablet repowerd[1503]: main: Starting repowerd 2016.10.1
+2018-11-30T15:39:48.028291+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: parse_file(/usr/share/powerd/device_configs/config-default.xml)
+2018-11-30T15:39:48.029824+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: parse_file(/usr/share/repowerd/device-configs/config-cancro.xml)
+2018-11-30T15:39:48.031128+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: enableWifiDisplay=true
+2018-11-30T15:39:48.031157+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: skip_restoring_network_selection=true
+2018-11-30T15:39:48.031174+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: autoBrightnessLevels=2,7,15,50,100,200,400,1000,2000,3000,5000,10000,30000
+2018-11-30T15:39:48.031190+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: safe_media_volume_index=9
+2018-11-30T15:39:48.031204+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: dozeAfterScreenOff=true
+2018-11-30T15:39:48.031219+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: tether_upstream_types=0,1,4,5,7
+2018-11-30T15:39:48.031235+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: keyboardTapVibePattern=25
+2018-11-30T15:39:48.031251+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: wifi_batched_scan_supported=true
+2018-11-30T15:39:48.031266+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: radioScanningTimeout=0
+2018-11-30T15:39:48.031281+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: wifiDisplaySupportsProtectedBuffers=true
+2018-11-30T15:39:48.031296+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: wifi_dual_band_support=true
+2018-11-30T15:39:48.031313+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: longPressOnHomeBehavior=3
+2018-11-30T15:39:48.031328+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: wifi_background_scan_support=true
+2018-11-30T15:39:48.031343+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: screenBrightnessSettingMinimum=2
+2018-11-30T15:39:48.031360+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: longPressOnMenuBehavior=2
+2018-11-30T15:39:48.032015+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: shutdownBatteryTemperature=680
+2018-11-30T15:39:48.032047+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: deviceHasVariableButtonBrightness=true
+2018-11-30T15:39:48.032064+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: virtualKeyVibePattern=0,25,8
+2018-11-30T15:39:48.032080+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: criticalBatteryWarningLevel=4
+2018-11-30T15:39:48.032096+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: deviceHardwareWakeKeys=64
+2018-11-30T15:39:48.032113+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: automatic_brightness_available=true
+2018-11-30T15:39:48.032129+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: deviceHardwareKeys=71
+2018-11-30T15:39:48.032145+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: cellBroadcastAppLinks=true
+2018-11-30T15:39:48.032162+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: supportDoubleTapWake=true
+2018-11-30T15:39:48.032179+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: defaultNotificationLedOff=5000
+2018-11-30T15:39:48.032195+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: ui_enableFadingMarquee=false
+2018-11-30T15:39:48.032256+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: unplugTurnsOnScreen=true
+2018-11-30T15:39:48.032510+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: defaultNotificationLedOn=500
+2018-11-30T15:39:48.032535+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: intrusiveNotificationLed=true
+2018-11-30T15:39:48.032552+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: intrusiveBatteryLed=true
+2018-11-30T15:39:48.032568+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: doubleTapOnHomeBehavior=0
+2018-11-30T15:39:48.032585+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: lidControlsSleep=true
+2018-11-30T15:39:48.032600+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: suspendWhenScreenOffDueToProximity=true
+2018-11-30T15:39:48.032614+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: hotswapCapable=true
+2018-11-30T15:39:48.032629+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: device_volte_available=false
+2018-11-30T15:39:48.032644+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: multiuserMaximumUsers=4
+2018-11-30T15:39:48.032660+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: screenBrightnessDoze=5
+2018-11-30T15:39:48.032882+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: enableMultiUserUI=true
+2018-11-30T15:39:48.032910+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: autoBrightnessLcdBacklightValues=13,25,32,41,52,62,69,78,88,134,178,225,255,255
+2018-11-30T15:39:48.032926+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: screenBrightnessSettingDefault=102
+2018-11-30T15:39:48.032943+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: useDevInputEventForAudioJack=true
+2018-11-30T15:39:48.032959+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: longPressVibePattern=0,25,10
+2018-11-30T15:39:48.032974+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: screenBrightnessDim=10
+2018-11-30T15:39:48.032990+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: bluetooth_operating_voltage_mv=3700
+2018-11-30T15:39:48.033006+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: powerDecoupleInteractiveModeFromDisplay=true
+2018-11-30T15:39:48.033023+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: screenBrightnessSettingMaximum=255
+2018-11-30T15:39:48.033038+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceConfig: Property: enableAutoPowerModes=true
+2018-11-30T15:39:48.033244+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceQuirks: DeviceName: cancro
+2018-11-30T15:39:48.033322+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceQuirks: Quirk: synthetic_initial_proximit_event_delay=500
+2018-11-30T15:39:48.033344+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceQuirks: Quirk: synthetic_initial_proximit_event_type=near
+2018-11-30T15:39:48.033475+00:00 ubuntu-phablet repowerd[1503]: AndroidDeviceQuirks: Quirk: normal_before_display_on_autobrightness=true
+2018-11-30T15:39:48.034809+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Initialized using backend autosleep
+2018-11-30T15:39:48.066204+00:00 ubuntu-phablet repowerd[1503]: DefaultDaemonConfig: Failed to create UbuntuPerformanceBooster: Failed to create ubuntu performance booster
+2018-11-30T15:39:48.066235+00:00 ubuntu-phablet repowerd[1503]: DefaultDaemonConfig: Falling back to NullPerformanceBooster
+2018-11-30T15:39:48.249377+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: add_device_if_battery(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:39:48.253047+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: add_device_if_battery(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.60
+2018-11-30T15:39:48.499006+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_getBrightnessParams() => (10,2,255,102,true)
+2018-11-30T15:39:52.897452+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:39:52.897783+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.50
+2018-11-30T15:39:59.207503+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: add_existing_modems(), /ril_0
+2018-11-30T15:39:59.207718+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: dbus_ModemAdded(/ril_0)
+2018-11-30T15:39:59.207898+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_turn_on_display
+2018-11-30T15:39:59.207929+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T15:39:59.207953+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T15:39:59.208124+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T15:39:59.241198+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.39 => 0.40 in 2.00 steps 1000.00us each
+2018-11-30T15:39:59.242584+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.39 => 0.40 done
+2018-11-30T15:39:59.242704+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T15:39:59.243009+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,0)
+2018-11-30T15:39:59.243236+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T15:40:02.274924+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_getBrightnessParams() => (10,2,255,102,true)
+2018-11-30T15:40:02.289025+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setUserBrightness(102)
+2018-11-30T15:40:02.408840+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_userAutobrightnessEnable(disable)
+2018-11-30T15:40:02.409778+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setInactivityTimeouts(60,-1)
+2018-11-30T15:40:02.409879+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_set_inactivity_timeout(60000)
+2018-11-30T15:40:02.410951+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setInactivityTimeouts(-1,45)
+2018-11-30T15:40:05.196067+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:40:05.205183+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.50
+2018-11-30T15:40:05.324635+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.50
+2018-11-30T15:40:05.471886+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.60
+2018-11-30T15:40:05.498852+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.50
+2018-11-30T15:40:05.698261+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.60
+2018-11-30T15:40:05.848677+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:40:05.849253+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.70
+2018-11-30T15:40:05.861961+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.70
+2018-11-30T15:40:12.840696+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.40
+2018-11-30T15:40:12.841990+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:40:52.460844+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T15:40:52.461601+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T15:40:52.510667+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T15:40:52.511248+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T15:41:02.421151+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T15:41:02.421873+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T15:41:02.524118+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T15:41:02.524977+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T15:41:02.534272+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T15:41:02.535322+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T15:41:02.536329+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T15:41:02.539171+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T15:41:02.539274+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T15:41:12.903781+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=77.00, temperature=0.00
+2018-11-30T15:41:12.914250+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=77.00, temperature=25.10
+2018-11-30T15:42:52.867982+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=78.00, temperature=25.20
+2018-11-30T15:42:52.880410+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=78.00, temperature=0.00
+2018-11-30T15:44:53.030736+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=78.00, temperature=25.10
+2018-11-30T15:44:53.040970+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=78.00, temperature=0.00
+2018-11-30T15:45:13.094314+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=78.00, temperature=0.00
+2018-11-30T15:45:13.104001+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=78.00, temperature=25.10
+2018-11-30T15:45:33.064920+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=79.00, temperature=25.10
+2018-11-30T15:45:33.077727+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=79.00, temperature=0.00
+2018-11-30T15:45:53.091415+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=79.00, temperature=25.20
+2018-11-30T15:45:53.101994+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=78.00, temperature=0.00
+2018-11-30T15:46:13.038281+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=79.00, temperature=25.10
+2018-11-30T15:46:13.073430+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=79.00, temperature=0.00
+2018-11-30T15:48:13.049476+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=79.00, temperature=25.10
+2018-11-30T15:48:13.061122+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=79.00, temperature=0.00
+2018-11-30T15:48:53.036612+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=79.00, temperature=25.00
+2018-11-30T15:48:53.074556+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=79.00, temperature=0.00
+2018-11-30T15:49:33.064879+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=80.00, temperature=25.10
+2018-11-30T15:49:33.076690+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=80.00, temperature=0.00
+2018-11-30T15:51:33.004269+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=80.00, temperature=25.10
+2018-11-30T15:51:33.014657+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=80.00, temperature=0.00
+2018-11-30T15:52:33.092199+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=80.00, temperature=25.10
+2018-11-30T15:52:33.104395+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=80.00, temperature=0.00
+2018-11-30T15:52:53.061545+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T15:52:53.073700+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:53:13.080363+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T15:53:13.103894+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=80.00, temperature=0.00
+2018-11-30T15:53:33.065691+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T15:53:33.077418+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:53:35.517266+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:53:35.524616+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T15:53:35.545685+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:53:56.666573+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T15:53:56.666727+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T15:53:56.666844+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T15:53:56.667455+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T15:53:57.137114+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T15:53:57.242648+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T15:53:57.242868+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T15:53:57.243303+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T15:53:57.243582+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T15:53:57.244033+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T15:53:57.752270+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:01.176907+00:00 ubuntu-phablet repowerd[1503]: message repeated 4 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:03.140029+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:54:03.140076+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:54:03.140249+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 1
+2018-11-30T15:54:04.655265+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,1)
+2018-11-30T15:54:04.655407+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:54:04.876791+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_getBrightnessParams() => (10,2,255,102,true)
+2018-11-30T15:54:04.914319+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setUserBrightness(102)
+2018-11-30T15:54:05.241505+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:13.013070+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:13.777100+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setScreenPowerMode(:1.103,on,5)
+2018-11-30T15:54:13.777501+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_notification
+2018-11-30T15:54:16.942621+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:17.026265+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:54:17.026295+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:54:17.026316+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 2
+2018-11-30T15:54:17.492095+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:19.149818+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:20.101260+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,2)
+2018-11-30T15:54:20.101436+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:54:20.120339+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:20.265818+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:54:20.265852+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:54:20.265874+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 3
+2018-11-30T15:54:20.743531+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:22.257118+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:22.377737+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_setScreenPowerMode(:1.103,off,5)
+2018-11-30T15:54:22.378864+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_no_notification
+2018-11-30T15:54:22.980863+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,3)
+2018-11-30T15:54:22.981011+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:54:25.594667+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:27.142842+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593270)
+2018-11-30T15:54:27.143058+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593270) => 1
+2018-11-30T15:54:28.018256+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:29.630531+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:30.000349+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_10)
+2018-11-30T15:54:30.001007+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T15:54:30.012510+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T15:54:30.012551+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:54:30.012582+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 4
+2018-11-30T15:54:30.336411+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:31.177251+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:35.277553+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:35.448932+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_10)
+2018-11-30T15:54:35.544983+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:54:35.547910+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.40
+2018-11-30T15:54:36.008894+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:36.047159+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:54:36.047209+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:54:36.047240+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 5
+2018-11-30T15:54:36.877824+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:37.778493+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:37.835516+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,5)
+2018-11-30T15:54:39.343443+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:40.506159+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593580)
+2018-11-30T15:54:40.506390+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593580) => 2
+2018-11-30T15:54:40.520423+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,4)
+2018-11-30T15:54:40.520514+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:54:44.826894+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:53.189195+00:00 ubuntu-phablet repowerd[1503]: message repeated 8 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:55.504735+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:54:55.515048+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:54:55.896940+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:54:57.859885+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:54:58.140764+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:54:58.143890+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.30
+2018-11-30T15:54:58.164884+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.30
+2018-11-30T15:54:58.520847+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:55:11.536353+00:00 ubuntu-phablet repowerd[1503]: message repeated 13 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:55:12.402497+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T15:55:12.481025+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:02.711813+00:00 ubuntu-phablet repowerd[1503]: message repeated 6 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:56:02.815054+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:56:02.815095+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:56:02.815117+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 6
+2018-11-30T15:56:02.832969+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T15:56:02.833001+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:56:02.833023+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 7
+2018-11-30T15:56:04.330276+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,6)
+2018-11-30T15:56:18.435883+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:20.530471+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:56:21.608918+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:56:21.609060+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:56:21.609171+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 8
+2018-11-30T15:56:23.125114+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,8)
+2018-11-30T15:56:30.091092+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:31.945011+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:56:33.872147+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:34.611918+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=2, percentage=81.00, temperature=0.00
+2018-11-30T15:56:34.611978+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource1)
+2018-11-30T15:56:34.612145+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T15:56:34.617417+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=81.00, temperature=25.60
+2018-11-30T15:56:34.617475+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource2)
+2018-11-30T15:56:34.617637+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T15:56:34.781841+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=81.00, temperature=25.50
+2018-11-30T15:56:34.814182+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=81.00, temperature=25.40
+2018-11-30T15:56:35.000311+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=81.00, temperature=25.40
+2018-11-30T15:56:35.030036+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=2, percentage=81.00, temperature=0.00
+2018-11-30T15:56:35.249971+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.30
+2018-11-30T15:56:35.250115+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource3)
+2018-11-30T15:56:35.250418+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T15:56:35.268220+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:56:35.268301+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource4)
+2018-11-30T15:56:35.268483+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T15:56:35.401915+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:56:35.430456+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:56:35.552391+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:35.608950+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:56:35.747957+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.30
+2018-11-30T15:56:35.778050+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:56:35.796639+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:56:35.800419+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.20
+2018-11-30T15:56:36.613825+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource1)
+2018-11-30T15:56:36.617996+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource2)
+2018-11-30T15:56:37.251796+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource3)
+2018-11-30T15:56:37.269059+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource4)
+2018-11-30T15:56:38.585020+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:56:40.329744+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:56:42.710304+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:57:31.141692+00:00 ubuntu-phablet repowerd[1503]: message repeated 31 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:57:31.761692+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,7)
+2018-11-30T15:57:31.761728+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:57:31.974880+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:57:33.349971+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:57:33.483499+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T15:57:33.483642+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:57:33.483758+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 9
+2018-11-30T15:57:34.776747+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:57:41.487847+00:00 ubuntu-phablet repowerd[1503]: message repeated 9 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:57:42.428322+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T15:57:42.428469+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:57:42.428581+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 10
+2018-11-30T15:57:43.820574+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:57:43.947490+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,10)
+2018-11-30T15:57:44.466686+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:58:03.834718+00:00 ubuntu-phablet repowerd[1503]: message repeated 8 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:58:06.150177+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:58:08.935547+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:58:36.475498+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T15:58:36.488981+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T15:58:57.240149+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:58:58.693362+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:58:59.424879+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,9)
+2018-11-30T15:58:59.424911+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:58:59.764530+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T15:59:03.596542+00:00 ubuntu-phablet repowerd[1503]: message repeated 5 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T15:59:40.000197+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_25)
+2018-11-30T15:59:40.000578+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T15:59:40.006474+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T15:59:40.006513+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T15:59:40.006544+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 11
+2018-11-30T15:59:43.003369+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_25)
+2018-11-30T15:59:45.041080+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593885)
+2018-11-30T15:59:45.041300+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543593885) => 3
+2018-11-30T15:59:45.052781+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,11)
+2018-11-30T15:59:45.053031+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T15:59:53.647202+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T15:59:53.647445+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T15:59:53.690732+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T15:59:53.690900+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T16:00:03.608617+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T16:00:03.609330+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T16:00:03.711717+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T16:00:03.712398+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T16:00:03.725695+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T16:00:03.726733+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T16:00:03.727816+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T16:00:03.727936+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:00:03.728668+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T16:00:15.466897+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=81.00, temperature=0.00
+2018-11-30T16:00:15.511838+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=81.00, temperature=25.10
+2018-11-30T16:01:35.558725+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=82.00, temperature=25.20
+2018-11-30T16:01:35.568854+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=82.00, temperature=0.00
+2018-11-30T16:01:43.534040+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=82.00, temperature=0.00
+2018-11-30T16:01:43.542019+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=82.00, temperature=25.10
+2018-11-30T16:01:43.563142+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=82.00, temperature=25.20
+2018-11-30T16:03:43.531631+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=82.00, temperature=0.00
+2018-11-30T16:03:43.543845+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=82.00, temperature=25.10
+2018-11-30T16:04:45.000409+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_36)
+2018-11-30T16:04:45.000572+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:04:45.002100+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:04:45.022656+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:04:45.022700+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:04:45.022730+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 12
+2018-11-30T16:04:48.005276+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_36)
+2018-11-30T16:04:50.056326+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594190)
+2018-11-30T16:04:50.056546+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594190) => 4
+2018-11-30T16:04:50.066897+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,12)
+2018-11-30T16:04:50.068637+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:04:50.068713+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:04:55.475572+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=82.00, temperature=25.10
+2018-11-30T16:04:55.499360+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=82.00, temperature=0.00
+2018-11-30T16:05:15.516115+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=83.00, temperature=25.00
+2018-11-30T16:05:15.553137+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=83.00, temperature=0.00
+2018-11-30T16:05:56.530614+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=83.00, temperature=0.00
+2018-11-30T16:05:56.562616+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=83.00, temperature=25.20
+2018-11-30T16:07:56.477306+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=83.00, temperature=0.00
+2018-11-30T16:07:56.489250+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=83.00, temperature=25.00
+2018-11-30T16:08:35.518988+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=83.00, temperature=25.00
+2018-11-30T16:08:35.553879+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=83.00, temperature=0.00
+2018-11-30T16:09:15.547056+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=84.00, temperature=25.10
+2018-11-30T16:09:15.558114+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=84.00, temperature=0.00
+2018-11-30T16:09:50.000426+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_47)
+2018-11-30T16:09:50.000591+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:09:50.002137+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:09:50.023197+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:09:50.023240+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:09:50.023269+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 13
+2018-11-30T16:09:53.005311+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_47)
+2018-11-30T16:09:55.059676+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594495)
+2018-11-30T16:09:55.059891+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594495) => 5
+2018-11-30T16:09:55.070850+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,13)
+2018-11-30T16:09:55.071124+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:09:55.071248+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:11:15.482593+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=84.00, temperature=25.10
+2018-11-30T16:11:15.494139+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=84.00, temperature=0.00
+2018-11-30T16:13:15.503254+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=84.00, temperature=25.10
+2018-11-30T16:13:15.514148+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=84.00, temperature=0.00
+2018-11-30T16:13:35.506950+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=84.00, temperature=25.10
+2018-11-30T16:13:35.519439+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=84.00, temperature=0.00
+2018-11-30T16:14:15.481364+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=85.00, temperature=25.10
+2018-11-30T16:14:15.522444+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=85.00, temperature=0.00
+2018-11-30T16:14:35.515218+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=86.00, temperature=25.10
+2018-11-30T16:14:35.549186+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=86.00, temperature=0.00
+2018-11-30T16:14:55.000405+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_58)
+2018-11-30T16:14:55.000572+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:14:55.002076+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:14:55.023378+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:14:55.023423+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:14:55.023452+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 14
+2018-11-30T16:14:58.005254+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_58)
+2018-11-30T16:15:00.051778+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594800)
+2018-11-30T16:15:00.051831+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543594800) => 6
+2018-11-30T16:15:00.054115+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,14)
+2018-11-30T16:15:00.054152+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:15:00.054178+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:16:35.506645+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=86.00, temperature=25.10
+2018-11-30T16:16:35.519457+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=86.00, temperature=0.00
+2018-11-30T16:18:35.502332+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=86.00, temperature=25.20
+2018-11-30T16:18:35.511763+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=86.00, temperature=0.00
+2018-11-30T16:18:55.513393+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=87.00, temperature=25.20
+2018-11-30T16:18:55.524875+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=87.00, temperature=0.00
+2018-11-30T16:20:00.000438+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_69)
+2018-11-30T16:20:00.000599+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:20:00.002136+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:20:00.026229+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:20:00.026274+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:20:00.026303+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 15
+2018-11-30T16:20:03.005299+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_69)
+2018-11-30T16:20:05.058905+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595105)
+2018-11-30T16:20:05.059197+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595105) => 7
+2018-11-30T16:20:05.069233+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,15)
+2018-11-30T16:20:05.069397+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:20:05.069516+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:20:35.512118+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=87.00, temperature=0.00
+2018-11-30T16:20:35.546686+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=87.00, temperature=25.20
+2018-11-30T16:21:15.541431+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=88.00, temperature=25.10
+2018-11-30T16:21:15.552622+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=88.00, temperature=0.00
+2018-11-30T16:21:35.481809+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=89.00, temperature=25.10
+2018-11-30T16:21:35.516875+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=89.00, temperature=0.00
+2018-11-30T16:22:15.488350+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=90.00, temperature=25.20
+2018-11-30T16:22:15.522250+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=90.00, temperature=0.00
+2018-11-30T16:22:51.782472+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T16:22:51.782625+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T16:22:51.782741+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:22:51.783438+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T16:22:52.261426+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T16:22:52.366807+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T16:22:52.367034+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T16:22:52.367466+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T16:22:52.367753+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T16:22:52.368169+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T16:22:52.898898+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:22:54.658954+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T16:22:54.689622+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T16:22:54.689683+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:22:54.689720+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 16
+2018-11-30T16:22:55.192759+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:22:56.970520+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:22:56.980855+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,16)
+2018-11-30T16:22:56.980899+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:22:57.468583+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:03.496399+00:00 ubuntu-phablet repowerd[1503]: message repeated 6 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T16:23:03.639471+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T16:23:03.639506+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:23:03.639528+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 17
+2018-11-30T16:23:04.363466+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:05.876644+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T16:23:09.377965+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:20.851440+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T16:23:21.053587+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:21.783372+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T16:23:21.892423+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:32.109292+00:00 ubuntu-phablet repowerd[1503]: message repeated 8 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T16:23:32.758817+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,17)
+2018-11-30T16:23:32.758850+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:23:32.915916+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T16:23:35.488460+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=91.00, temperature=25.20
+2018-11-30T16:23:35.524661+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=91.00, temperature=0.00
+2018-11-30T16:24:22.968142+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T16:24:22.968859+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T16:24:23.018091+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T16:24:23.018277+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T16:24:32.928320+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T16:24:32.929048+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T16:24:33.031394+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T16:24:33.032116+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T16:24:33.039862+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T16:24:33.040897+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T16:24:33.041878+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T16:24:33.041997+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:24:33.042720+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T16:25:05.000476+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_710)
+2018-11-30T16:25:05.000645+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:25:05.002155+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:25:05.022346+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:25:05.022390+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:25:05.022420+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 18
+2018-11-30T16:25:08.005331+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_710)
+2018-11-30T16:25:10.056019+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595410)
+2018-11-30T16:25:10.056239+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595410) => 8
+2018-11-30T16:25:10.068117+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,18)
+2018-11-30T16:25:10.068208+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:25:10.068268+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:25:35.526863+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=91.00, temperature=25.20
+2018-11-30T16:25:35.538167+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=91.00, temperature=0.00
+2018-11-30T16:25:55.493892+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=92.00, temperature=0.00
+2018-11-30T16:25:55.538049+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=92.00, temperature=25.20
+2018-11-30T16:27:55.492136+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=92.00, temperature=0.00
+2018-11-30T16:27:55.503199+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=92.00, temperature=25.20
+2018-11-30T16:29:15.519304+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=93.00, temperature=25.20
+2018-11-30T16:29:15.554492+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=93.00, temperature=0.00
+2018-11-30T16:29:35.505964+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=94.00, temperature=25.20
+2018-11-30T16:29:35.518042+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=94.00, temperature=0.00
+2018-11-30T16:30:10.000406+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_811)
+2018-11-30T16:30:10.000570+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:30:10.002084+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:30:10.022851+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:30:10.022896+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:30:10.022926+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 19
+2018-11-30T16:30:13.005260+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_811)
+2018-11-30T16:30:15.056475+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595715)
+2018-11-30T16:30:15.056690+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543595715) => 9
+2018-11-30T16:30:15.070732+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,19)
+2018-11-30T16:30:15.070773+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:30:15.070798+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:31:35.483896+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=94.00, temperature=25.20
+2018-11-30T16:31:35.496149+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=94.00, temperature=0.00
+2018-11-30T16:32:31.587849+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=94.00, temperature=25.20
+2018-11-30T16:32:31.598841+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=94.00, temperature=0.00
+2018-11-30T16:32:35.526542+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=95.00, temperature=25.20
+2018-11-30T16:32:35.557853+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=95.00, temperature=0.00
+2018-11-30T16:32:55.493846+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=96.00, temperature=25.20
+2018-11-30T16:32:55.520014+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=96.00, temperature=0.00
+2018-11-30T16:33:15.549175+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=97.00, temperature=0.00
+2018-11-30T16:33:15.559470+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=97.00, temperature=25.20
+2018-11-30T16:33:35.517213+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=1, percentage=98.00, temperature=25.20
+2018-11-30T16:33:35.525934+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=1, percentage=98.00, temperature=0.00
+2018-11-30T16:33:56.775084+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:33:56.785061+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T16:33:58.529870+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30]
+2018-11-30T16:35:15.000403+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_912)
+2018-11-30T16:35:15.000568+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:35:15.002191+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:35:15.022283+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:35:15.022323+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:35:15.022354+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 20
+2018-11-30T16:35:18.005368+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_912)
+2018-11-30T16:35:20.056781+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596020)
+2018-11-30T16:35:20.057020+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596020) => 10
+2018-11-30T16:35:20.071015+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,20)
+2018-11-30T16:35:20.071056+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:35:20.071083+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:35:57.514119+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:35:58.418871+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:37:57.511888+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:37:58.415767+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:39:57.514277+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:39:58.416792+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:40:20.000374+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1013)
+2018-11-30T16:40:20.000531+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:40:20.001976+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:40:20.022825+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:40:20.022869+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:40:20.022898+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 21
+2018-11-30T16:40:23.005154+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1013)
+2018-11-30T16:40:25.057019+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596325)
+2018-11-30T16:40:25.057254+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596325) => 11
+2018-11-30T16:40:25.071002+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,21)
+2018-11-30T16:40:25.071044+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:40:25.071070+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:41:57.514512+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:41:58.416611+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T16:43:57.435906+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:43:58.416686+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:45:25.000401+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1114)
+2018-11-30T16:45:25.000564+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:45:25.002108+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:45:25.025679+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:45:25.025724+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:45:25.025754+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 22
+2018-11-30T16:45:28.005279+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1114)
+2018-11-30T16:45:30.059205+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596630)
+2018-11-30T16:45:30.059447+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596630) => 12
+2018-11-30T16:45:30.073614+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,22)
+2018-11-30T16:45:30.073657+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:45:30.073683+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:45:57.463443+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:45:58.419110+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:47:57.514384+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:47:58.416571+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:49:57.514379+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:49:58.416553+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:50:30.000401+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1215)
+2018-11-30T16:50:30.000562+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:50:30.002105+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:50:30.025220+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:50:30.025267+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:50:30.025296+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 23
+2018-11-30T16:50:33.005280+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1215)
+2018-11-30T16:51:30.074352+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596990)
+2018-11-30T16:51:30.074591+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543596990) => 13
+2018-11-30T16:51:30.086261+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,23)
+2018-11-30T16:51:30.086303+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:51:30.086329+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:51:57.491200+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:51:58.416431+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:53:57.561013+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:53:58.438867+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:55:57.492250+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:55:58.415484+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:56:30.000371+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1316)
+2018-11-30T16:56:30.000536+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T16:56:30.002081+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T16:56:30.029891+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T16:56:30.029936+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T16:56:30.029965+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 24
+2018-11-30T16:56:33.005252+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1316)
+2018-11-30T16:56:35.063766+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597295)
+2018-11-30T16:56:35.063996+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597295) => 14
+2018-11-30T16:56:35.077933+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,24)
+2018-11-30T16:56:35.077974+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T16:56:35.078000+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T16:57:57.514245+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:57:58.416274+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T16:59:57.482006+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T16:59:58.415732+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:01:35.000409+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1417)
+2018-11-30T17:01:35.000571+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:01:35.002098+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:01:35.022583+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:01:35.022628+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:01:35.022658+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 25
+2018-11-30T17:01:38.005277+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1417)
+2018-11-30T17:01:40.056828+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597600)
+2018-11-30T17:01:40.057062+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597600) => 15
+2018-11-30T17:01:40.067598+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,25)
+2018-11-30T17:01:40.067766+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:01:40.067886+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:01:57.514812+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:01:58.415751+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:03:57.658999+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:03:58.443476+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:05:39.121025+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T17:05:39.121181+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T17:05:39.121297+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:05:39.121911+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T17:05:39.599694+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T17:05:39.705434+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T17:05:39.705637+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T17:05:39.706062+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T17:05:39.706344+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T17:05:39.706770+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T17:05:40.072189+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:05:41.058929+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:05:41.090269+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:05:41.090322+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:05:41.090358+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 26
+2018-11-30T17:05:41.646413+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:05:43.274952+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,26)
+2018-11-30T17:05:43.275253+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:05:43.452613+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:05:47.583699+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:05:47.595698+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T17:05:49.056211+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:05:58.221964+00:00 ubuntu-phablet repowerd[1503]: message repeated 10 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:05:58.520682+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:05:58.531108+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:06:02.148526+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:07.346688+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:06:07.424223+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T17:06:07.424266+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:06:07.424296+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 27
+2018-11-30T17:06:08.003773+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:08.706762+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:09.232652+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:09.915243+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:21.864894+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:26.219479+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:06:26.520267+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:06:26.520300+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:06:26.520321+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 28
+2018-11-30T17:06:26.900621+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:27.635701+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:28.034949+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,28)
+2018-11-30T17:06:28.682444+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:31.145422+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:33.584516+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:06:40.000413+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1518)
+2018-11-30T17:06:40.001475+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:06:40.025346+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:06:40.025392+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:06:40.025421+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 29
+2018-11-30T17:06:43.004646+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1518)
+2018-11-30T17:06:46.653827+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:53.056140+00:00 ubuntu-phablet repowerd[1503]: message repeated 7 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:06:55.203614+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:06:57.241110+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:06:57.299562+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,27)
+2018-11-30T17:07:30.027910+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:07:30.172980+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T17:07:30.173027+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:07:30.173056+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 30
+2018-11-30T17:07:32.081596+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:07:37.135750+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:07:40.072488+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597960)
+2018-11-30T17:07:40.072732+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543597960) => 16
+2018-11-30T17:07:40.082148+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,29)
+2018-11-30T17:07:45.355371+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:07:47.592917+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:07:48.113465+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:07:48.113500+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:07:48.113526+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 31
+2018-11-30T17:07:49.627185+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,31)
+2018-11-30T17:07:54.312219+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_keepDisplayOn(:1.106)
+2018-11-30T17:07:54.312267+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_keepDisplayOn(:1.106) => 1
+2018-11-30T17:07:54.312408+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_disable_inactivity_timeout
+2018-11-30T17:07:55.846456+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T17:07:55.937438+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:07:57.989723+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:07:58.514740+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:07:58.517475+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.40
+2018-11-30T17:07:59.223386+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,30)
+2018-11-30T17:07:59.223421+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:07:59.674139+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:00.654248+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:00.787421+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T17:08:00.787466+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:08:00.787496+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 32
+2018-11-30T17:08:02.613576+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_removeDisplayOnRequest(:1.106,1)
+2018-11-30T17:08:02.614035+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_enable_inactivity_timeout
+2018-11-30T17:08:05.114686+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:12.646018+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:08:13.029209+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:08:13.029246+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:08:13.029270+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 33
+2018-11-30T17:08:14.557695+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,33)
+2018-11-30T17:08:17.969834+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:18.708186+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:19.211055+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:08:20.396272+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:08:20.943815+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,32)
+2018-11-30T17:08:20.943851+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:08:21.491581+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:09:11.543633+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T17:09:11.544360+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T17:09:11.595529+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T17:09:11.596078+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T17:09:21.503910+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T17:09:21.504622+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T17:09:21.606716+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T17:09:21.607036+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T17:09:21.609155+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T17:09:21.609403+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T17:09:21.609620+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T17:09:21.609648+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:09:21.609900+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T17:09:58.526282+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:09:58.537185+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:11:58.526871+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:11:58.537136+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:12:40.000407+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1619)
+2018-11-30T17:12:40.000571+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:12:40.002111+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:12:40.025852+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:12:40.025898+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:12:40.025928+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 34
+2018-11-30T17:12:43.005287+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1619)
+2018-11-30T17:12:45.060928+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598265)
+2018-11-30T17:12:45.061161+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598265) => 17
+2018-11-30T17:12:45.077834+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,34)
+2018-11-30T17:12:45.077875+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:12:45.077901+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:13:58.695835+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:13:58.705179+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:15:59.526717+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:15:59.537191+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:17:45.000139+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1720)
+2018-11-30T17:17:45.000177+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:17:45.000755+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:17:45.005222+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:17:45.005251+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:17:45.005271+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 35
+2018-11-30T17:17:48.004101+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1720)
+2018-11-30T17:17:59.527696+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:17:59.538505+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:26.132580+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:26.140493+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.40
+2018-11-30T17:18:26.262479+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:26.264985+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:26.401917+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:26.412585+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:29.840684+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T17:18:29.840843+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T17:18:29.840975+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T17:18:30.306298+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T17:18:30.415190+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T17:18:30.415294+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T17:18:30.415319+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T17:18:30.415635+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T17:18:30.415688+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T17:18:30.466708+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:30.469934+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.40
+2018-11-30T17:18:30.636040+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:30.638160+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:18:30.662946+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:30.777056+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:30.780478+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:30.817667+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:30.819842+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:31.725868+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:31.759425+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:18:31.759468+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:18:31.759496+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 36
+2018-11-30T17:18:32.228707+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:33.995926+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,36)
+2018-11-30T17:18:35.711730+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:35.736874+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:18:35.736914+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:18:35.736944+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 37
+2018-11-30T17:18:36.954381+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:37.542100+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:18:39.350924+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,37)
+2018-11-30T17:18:45.083147+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598625)
+2018-11-30T17:18:45.083392+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598625) => 18
+2018-11-30T17:18:45.090080+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,35)
+2018-11-30T17:18:45.090123+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:18:45.541830+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=2, percentage=100.00, temperature=0.00
+2018-11-30T17:18:45.541873+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource21)
+2018-11-30T17:18:45.542019+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T17:18:45.550157+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=100.00, temperature=25.40
+2018-11-30T17:18:45.550203+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource22)
+2018-11-30T17:18:45.550477+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T17:18:45.674533+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=100.00, temperature=25.30
+2018-11-30T17:18:45.890334+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=2, percentage=100.00, temperature=0.00
+2018-11-30T17:18:45.918903+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=2, percentage=100.00, temperature=25.40
+2018-11-30T17:18:46.719320+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:46.719380+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource23)
+2018-11-30T17:18:46.719738+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T17:18:46.729989+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:18:46.730046+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UPowerPowerSource24)
+2018-11-30T17:18:46.730357+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_source_change
+2018-11-30T17:18:46.950697+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:46.956163+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:18:47.206956+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:47.209213+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:18:47.356165+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:47.366027+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:47.508585+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:18:47.518189+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:18:47.543210+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource21)
+2018-11-30T17:18:47.550364+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource22)
+2018-11-30T17:18:48.721941+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource23)
+2018-11-30T17:18:48.730416+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UPowerPowerSource24)
+2018-11-30T17:19:13.152646+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:19:16.896926+00:00 ubuntu-phablet repowerd[1503]: message repeated 3 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:19:17.839644+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T17:19:17.884055+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:19:18.535606+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_changing_power_state
+2018-11-30T17:19:18.569734+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:19:25.035722+00:00 ubuntu-phablet repowerd[1503]: message repeated 2 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:20:15.089250+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T17:20:15.090041+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T17:20:15.138860+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T17:20:15.139896+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T17:20:25.049507+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T17:20:25.050224+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T17:20:25.153600+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T17:20:25.154352+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T17:20:25.157167+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T17:20:25.158236+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T17:20:25.159347+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T17:20:25.159459+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:20:25.161129+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T17:20:47.513381+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:20:47.523290+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:21:50.280316+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T17:21:50.280466+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T17:21:50.280582+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:21:50.281207+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T17:21:50.759549+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T17:21:50.865894+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T17:21:50.866100+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T17:21:50.866536+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T17:21:50.866822+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T17:21:50.867276+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T17:21:51.332402+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:21:52.448911+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:21:52.484059+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:21:52.484118+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:21:52.484152+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 38
+2018-11-30T17:21:53.036563+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:21:54.815368+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,38)
+2018-11-30T17:21:54.815550+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:21:55.160260+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:21:59.202180+00:00 ubuntu-phablet repowerd[1503]: message repeated 5 times: [ DefaultStateMachine: handle_user_activity_extending_power_state]
+2018-11-30T17:21:59.519607+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1)
+2018-11-30T17:21:59.519744+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:21:59.519858+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.103,active,1) => 39
+2018-11-30T17:21:59.717592+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:01.200056+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:02.169313+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:03.202725+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:03.844739+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:04.233376+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.103,39)
+2018-11-30T17:22:04.233511+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:22:04.696525+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:22:47.472371+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:22:47.482058+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:22:54.748995+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T17:22:54.749702+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T17:22:54.797015+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T17:22:54.797197+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T17:23:04.709297+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T17:23:04.710007+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T17:23:04.812231+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T17:23:04.812948+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T17:23:04.820266+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T17:23:04.821297+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T17:23:04.822278+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T17:23:04.822397+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:23:04.823232+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T17:23:45.000145+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1825)
+2018-11-30T17:23:45.000181+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:23:45.000687+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:23:45.016614+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:23:45.016647+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:23:45.016669+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 40
+2018-11-30T17:23:48.004041+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1825)
+2018-11-30T17:23:50.083856+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598930)
+2018-11-30T17:23:50.084084+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestWakeup(:1.130,ubuntu push client,1543598930) => 19
+2018-11-30T17:23:50.097240+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.130,40)
+2018-11-30T17:23:50.097332+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:23:50.097391+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:24:47.479124+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:24:47.489716+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:25:55.853411+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:55.865237+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:56.820303+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:56.823540+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:56.974776+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:57.121304+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:57.147612+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:57.744262+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:57.753092+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.40
+2018-11-30T17:25:57.983090+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:57.986529+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.40
+2018-11-30T17:25:58.269993+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:58.273252+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:25:58.308243+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:58.440972+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:25:58.443438+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:25:58.670228+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.20
+2018-11-30T17:25:58.676661+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:26:04.388525+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_press
+2018-11-30T17:26:04.388681+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(DefaultStateMachine)
+2018-11-30T17:26:04.388797+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:26:04.389403+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_on()
+2018-11-30T17:26:04.859757+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 in 40.00 steps 2500.00us each
+2018-11-30T17:26:04.965260+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.00 => 0.40 done
+2018-11-30T17:26:04.965469+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.400000), brightness_value=102
+2018-11-30T17:26:04.965891+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(1,2)
+2018-11-30T17:26:04.966176+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_power_button_release
+2018-11-30T17:26:04.966598+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,false)
+2018-11-30T17:26:05.058587+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:26:06.203805+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:26:06.249654+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1)
+2018-11-30T17:26:06.249701+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:26:06.249736+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.66,usensord,1) => 41
+2018-11-30T17:26:06.709127+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_user_activity_extending_power_state
+2018-11-30T17:26:08.451510+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_clearSysState(:1.66,41)
+2018-11-30T17:26:08.451695+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(UnityScreenService)
+2018-11-30T17:26:56.763310+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_dim)
+2018-11-30T17:26:56.764012+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 in 37.00 steps 1000.00us each
+2018-11-30T17:26:56.811111+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.40 => 0.04 done
+2018-11-30T17:26:56.811296+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.039216), brightness_value=10
+2018-11-30T17:27:06.722585+00:00 ubuntu-phablet repowerd[1503]: DefaultStateMachine: handle_alarm(display_off)
+2018-11-30T17:27:06.723431+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 in 4.00 steps 25000.00us each
+2018-11-30T17:27:06.825603+00:00 ubuntu-phablet repowerd[1503]: BacklightBrightnessControl: Transitioning brightness 0.04 => 0.00 done
+2018-11-30T17:27:06.826315+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_brightness(0.000000), brightness_value=0
+2018-11-30T17:27:06.829169+00:00 ubuntu-phablet repowerd[1503]: UnityDisplayPowerControl: turn_off()
+2018-11-30T17:27:06.830229+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_DisplayPowerStateChange(0,1)
+2018-11-30T17:27:06.831311+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(DefaultStateMachine)
+2018-11-30T17:27:06.831423+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: Preparing for suspend
+2018-11-30T17:27:06.833091+00:00 ubuntu-phablet repowerd[1503]: OfonoVoiceCallService: set_fast_dormancy(/ril_0,true)
+2018-11-30T17:27:58.514492+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_bms), is_present=1, state=4, percentage=100.00, temperature=0.00
+2018-11-30T17:27:59.417994+00:00 ubuntu-phablet repowerd[1503]: UPowerPowerSource: change_device(/org/freedesktop/UPower/devices/battery_battery), is_present=1, state=4, percentage=100.00, temperature=25.30
+2018-11-30T17:28:50.000374+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(Wakeup_1926)
+2018-11-30T17:28:50.000536+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: exiting suspend
+2018-11-30T17:28:50.001949+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_emit_Wakeup()
+2018-11-30T17:28:50.022303+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1)
+2018-11-30T17:28:50.022345+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: disallow_suspend(UnityScreenService)
+2018-11-30T17:28:50.022374+00:00 ubuntu-phablet repowerd[1503]: UnityScreenService: dbus_requestSysState(:1.130,ubuntu push client,1) => 42
+2018-11-30T17:28:53.005114+00:00 ubuntu-phablet repowerd[1503]: LibsuspendSuspendControl: allow_suspend(Wakeup_1926)

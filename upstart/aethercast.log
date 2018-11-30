@@ -1,0 +1,4 @@
+[DD 2018-11-30 15:39:38] [networkmanagerfactory.cpp:92@Create] Creating network manager of type w11tng
+[DD 2018-11-30 15:39:38] [networkmanager.cpp:60@FinalizeConstruction] Checking if URfkill is available ..
+[DD 2018-11-30 15:39:38] [networkmanager.cpp:212@OnURfkillAvailable] URfkill is available
+[II 2018-11-30 15:39:38] [controllerskeleton.cpp:208@OnNameAcquired] Registered bus name org.aethercast

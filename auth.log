@@ -1,0 +1,117 @@
+Nov 30 15:39:44 ubuntu-phablet su[3359]: Successful su for root by root
+Nov 30 15:39:44 ubuntu-phablet su[3359]: + ??? root:root
+Nov 30 15:39:44 ubuntu-phablet su[3359]: pam_unix(su:session): session opened for user root by (uid=0)
+Nov 30 15:39:44 ubuntu-phablet PAM-CGFS[3359]: Could not detect cgroupfs hierarchy.
+Nov 30 15:39:44 ubuntu-phablet PAM-CGFS[3359]: Failed to get list of controllers
+Nov 30 15:39:44 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
+Nov 30 15:39:44 ubuntu-phablet PAM-CGFS[3465]: Could not detect cgroupfs hierarchy.
+Nov 30 15:39:44 ubuntu-phablet PAM-CGFS[3465]: Failed to get list of controllers
+Nov 30 15:39:45 ubuntu-phablet gnome-keyring-daemon[3874]: couldn't access control socket: /run/user/32011/keyring/control: No such file or directory
+Nov 30 15:39:59 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 15:40:16 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 15:40:16 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 15:40:16 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 15:40:16 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 15:40:16 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 15:40:16 ubuntu-phablet unity8: gkr-pam: no password is available for user
+Nov 30 15:41:02 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 15:41:02 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 15:53:57 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 15:54:37 ubuntu-phablet accounts-daemon: request by system-bus-name::1.103 [unity8 --mode=full-greeter pid:4308 uid:32011]: change real name of user 'phablet' (32011) to 'mi'
+Nov 30 15:54:53 ubuntu-phablet passwd[8160]: pam_extrausers(passwd:chauthtok): password changed for phablet
+Nov 30 15:54:53 ubuntu-phablet passwd[8160]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Nov 30 15:54:53 ubuntu-phablet polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.167 [/usr/lib/arm-linux-gnueabihf/ubuntu-system-settings/private/Ubuntu/SystemSettings/SecurityPrivacy/UbuntuSecurityPrivacyHelper], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 30 15:54:54 ubuntu-phablet polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:phablet to gain TEMPORARY authorization for action org.freedesktop.accounts.user-administration for system-bus-name::1.103 [unity8 --mode=full-greeter] (owned by unix-user:phablet)
+Nov 30 15:54:54 ubuntu-phablet polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.167, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 30 16:00:03 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 16:00:03 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 16:00:03 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 16:00:03 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 16:00:03 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 16:00:03 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 16:00:04 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 16:17:01 ubuntu-phablet CRON[10681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 16:17:01 ubuntu-phablet PAM-CGFS[10681]: Could not detect cgroupfs hierarchy.
+Nov 30 16:17:01 ubuntu-phablet PAM-CGFS[10681]: Failed to get list of controllers
+Nov 30 16:17:01 ubuntu-phablet CRON[10681]: pam_unix(cron:session): session closed for user root
+Nov 30 16:22:52 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 16:22:55 ubuntu-phablet unity8: gkr-pam: unlocked login keyring
+Nov 30 16:24:33 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 16:24:33 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 16:24:33 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 16:24:33 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 16:24:33 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 16:24:33 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 16:24:33 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 17:05:39 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:05:42 ubuntu-phablet gnome-keyring-daemon[3874]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov 30 17:05:42 ubuntu-phablet unity8: gkr-pam: unlocked login keyring
+Nov 30 17:09:03 ubuntu-phablet sudo:  phablet : TTY=pts/22 ; PWD=/home/phablet ; USER=phablet ; COMMAND=/bin/bash -c /bin/bash -l
+Nov 30 17:09:03 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user phablet by (uid=0)
+Nov 30 17:09:03 ubuntu-phablet PAM-CGFS[14057]: Could not detect cgroupfs hierarchy.
+Nov 30 17:09:03 ubuntu-phablet PAM-CGFS[14057]: Failed to get list of controllers
+Nov 30 17:09:21 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:09:21 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:09:21 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 17:09:21 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 17:09:21 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 17:09:21 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 17:09:21 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 17:13:35 ubuntu-phablet sudo[14057]: pam_unix(sudo:session): session closed for user phablet
+Nov 30 17:17:01 ubuntu-phablet CRON[14419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 17:17:01 ubuntu-phablet PAM-CGFS[14419]: Could not detect cgroupfs hierarchy.
+Nov 30 17:17:01 ubuntu-phablet PAM-CGFS[14419]: Failed to get list of controllers
+Nov 30 17:17:01 ubuntu-phablet CRON[14419]: pam_unix(cron:session): session closed for user root
+Nov 30 17:18:30 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:18:38 ubuntu-phablet gnome-keyring-daemon[3874]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov 30 17:18:38 ubuntu-phablet unity8: gkr-pam: unlocked login keyring
+Nov 30 17:20:25 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:20:25 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:20:25 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 17:20:25 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 17:20:25 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 17:20:25 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 17:20:25 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 17:21:50 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:21:53 ubuntu-phablet gnome-keyring-daemon[3874]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov 30 17:21:53 ubuntu-phablet unity8: gkr-pam: unlocked login keyring
+Nov 30 17:23:04 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:23:05 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:23:05 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 17:23:05 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 17:23:05 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 17:23:05 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 17:23:05 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 17:23:36 ubuntu-phablet sudo:  phablet : TTY=pts/41 ; PWD=/home/phablet ; USER=phablet ; COMMAND=/bin/bash -c /bin/bash -l
+Nov 30 17:23:36 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user phablet by (uid=0)
+Nov 30 17:23:36 ubuntu-phablet PAM-CGFS[15216]: Could not detect cgroupfs hierarchy.
+Nov 30 17:23:36 ubuntu-phablet PAM-CGFS[15216]: Failed to get list of controllers
+Nov 30 17:24:54 ubuntu-phablet sudo:  phablet : TTY=pts/41 ; PWD=/home/phablet ; USER=root ; COMMAND=/system/bin/logcat -d
+Nov 30 17:24:54 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 30 17:24:54 ubuntu-phablet PAM-CGFS[15381]: Could not detect cgroupfs hierarchy.
+Nov 30 17:24:54 ubuntu-phablet PAM-CGFS[15381]: Failed to get list of controllers
+Nov 30 17:24:55 ubuntu-phablet sudo[15381]: pam_unix(sudo:session): session closed for user root
+Nov 30 17:25:14 ubuntu-phablet sudo:  phablet : TTY=pts/41 ; PWD=/home/phablet ; USER=root ; COMMAND=/system/bin/logcat -d
+Nov 30 17:25:14 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 30 17:25:14 ubuntu-phablet PAM-CGFS[15418]: Could not detect cgroupfs hierarchy.
+Nov 30 17:25:14 ubuntu-phablet PAM-CGFS[15418]: Failed to get list of controllers
+Nov 30 17:25:14 ubuntu-phablet sudo[15418]: pam_unix(sudo:session): session closed for user root
+Nov 30 17:25:56 ubuntu-phablet sudo[15216]: pam_unix(sudo:session): session closed for user phablet
+Nov 30 17:26:04 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:26:07 ubuntu-phablet gnome-keyring-daemon[3874]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov 30 17:26:07 ubuntu-phablet unity8: gkr-pam: unlocked login keyring
+Nov 30 17:27:06 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.35" (uid=0 pid=2886 comm="ofonod -P provision,udev*,dun*,smart*,hfp_bluez5,s") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.96" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:27:07 ubuntu-phablet dbus[1362]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.57" (uid=0 pid=2932 comm="unity-system-compositor --enable-num-framebuffers-") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.95" (uid=0 pid=1503 comm="/usr/sbin/repowerd ")
+Nov 30 17:27:07 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 30 17:27:07 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet.so
+Nov 30 17:27:07 ubuntu-phablet unity8: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 30 17:27:07 ubuntu-phablet unity8: PAM adding faulty module: pam_kwallet5.so
+Nov 30 17:27:07 ubuntu-phablet unity8: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "phablet"
+Nov 30 17:27:27 ubuntu-phablet sudo:  phablet : TTY=pts/22 ; PWD=/home/phablet ; USER=phablet ; COMMAND=/bin/bash -c /bin/bash -l
+Nov 30 17:27:27 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user phablet by (uid=0)
+Nov 30 17:27:27 ubuntu-phablet PAM-CGFS[15730]: Could not detect cgroupfs hierarchy.
+Nov 30 17:27:27 ubuntu-phablet PAM-CGFS[15730]: Failed to get list of controllers
+Nov 30 17:29:43 ubuntu-phablet sudo:  phablet : TTY=pts/22 ; PWD=/home/phablet/Downloads ; USER=root ; COMMAND=/bin/tar cvjf log.tar.gz /var/log/
+Nov 30 17:29:43 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 30 17:29:43 ubuntu-phablet PAM-CGFS[15882]: Could not detect cgroupfs hierarchy.
+Nov 30 17:29:43 ubuntu-phablet PAM-CGFS[15882]: Failed to get list of controllers

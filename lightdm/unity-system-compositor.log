@@ -1,0 +1,138 @@
+[2018-11-30 15:39:44.161607] mirplatform: Found graphics driver: mir:android (version 0.24.2)
+Warning: ignoring unrecognised arguments: --vt 1
+[2018-11-30 15:39:44.164861] mirserver: Starting
+[2018-11-30 15:39:44.168497] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[2018-11-30 15:39:44.169873] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.10
+[2018-11-30 15:39:44.169975] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-evdev.so.5
+[2018-11-30 15:39:44.174998] mirplatform: Found graphics driver: mir:android (version 0.24.2)
+[2018-11-30 15:39:44.177103] mirserver: Selected driver: mir:android (version 0.24.2)
+[2018-11-30 15:39:44.491176] android/server: Found 1 matching egl configs
+[2018-11-30 15:39:44.491316] android/server: Android visual ID for selected display format : 1
+[2018-11-30 15:39:44.491359] android/server: Selected Mir display format : 1
+[2018-11-30 15:39:44.532980] mirserver: Using software cursor
+[2018-11-30 15:39:44.533678] mirserver: Initial display configuration:
+[2018-11-30 15:39:44.536306] mirserver:   0.1: LVDS 4.9" 61x109mm
+[2018-11-30 15:39:44.536372] mirserver:        Current mode 1080x1920 60.00Hz
+[2018-11-30 15:39:44.536419] mirserver:        Preferred mode 1080x1920 60.00Hz
+[2018-11-30 15:39:44.536499] mirserver:        Logical position +0+0
+[2018-11-30 15:39:44.536545] mirserver:   0.2: unused DisplayPort
+[2018-11-30 15:39:44.536591] mirserver:   0.3: unused (null)
+[2018-11-30 15:39:44.537370] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[2018-11-30 15:39:44.537504] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.10
+[2018-11-30 15:39:44.537618] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-evdev.so.5
+[2018-11-30 15:39:44.561008] mirserver: Selected input driver: mir:evdev-input (version: 0.24.2)
+GL_VENDOR = Qualcomm
+GL_RENDERER = Adreno (TM) 330
+GL_VERSION = OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+dm_connection_start
+[2018-11-30 15:39:44.605014] GLRenderer: EGL vendor: Android
+[2018-11-30 15:39:44.605303] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-11-30 15:39:44.605358] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-11-30 15:39:44.605701] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-11-30 15:39:44.605770] GLRenderer: GL vendor: Qualcomm
+[2018-11-30 15:39:44.605818] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-11-30 15:39:44.605870] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-11-30 15:39:44.605915] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-11-30 15:39:44.605963] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-11-30 15:39:44.606076] GLRenderer: GL max texture size = 4096
+[2018-11-30 15:39:44.606131] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-11-30 15:39:44.616953] mirserver: Mir version 0.24.2
+set_active_session 'session-0'
+[2018-11-30 15:39:44.730220] evdev-input: Added /dev/input/event2
+[2018-11-30 15:39:44.776795] evdev-input: Added /dev/input/event4
+[2018-11-30 15:39:44.792787] evdev-input: Added /dev/input/event1
+[2018-11-30 15:39:44.806460] evdev-input: Added /dev/input/event0
+Opening session eglspinner
+Server supports 4 of 10 surface pixel formats. Using format: 1
+Active output [1] at (0, 0) is 1080x1920
+Spinner using pixels per grid unit: 13
+Spinner using native orientation: ''
+Opening session session-0
+Closing session session-0
+Opening session session-0
+[2018-11-30 15:40:20.065614] mirserver: New display configuration:
+[2018-11-30 15:40:20.069298] mirserver:   0.1: LVDS 4.9" 61x109mm
+[2018-11-30 15:40:20.069372] mirserver:        Current mode 1080x1920 60.00Hz
+[2018-11-30 15:40:20.069431] mirserver:        Preferred mode 1080x1920 60.00Hz
+[2018-11-30 15:40:20.069485] mirserver:        Logical position +0+0
+[2018-11-30 15:40:20.069539] mirserver:   0.2: unused DisplayPort
+[2018-11-30 15:40:20.069592] mirserver:   0.3: unused (null)
+[2018-11-30 15:40:20.105098] GLRenderer: EGL vendor: Android
+[2018-11-30 15:40:20.105235] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-11-30 15:40:20.105312] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-11-30 15:40:20.105400] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-11-30 15:40:20.105473] GLRenderer: GL vendor: Qualcomm
+[2018-11-30 15:40:20.105543] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-11-30 15:40:20.105622] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-11-30 15:40:20.105693] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-11-30 15:40:20.105767] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-11-30 15:40:20.105840] GLRenderer: GL max texture size = 4096
+[2018-11-30 15:40:20.105914] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+Closing session eglspinner
+Signal 15 received. Good night.
+[2018-11-30 15:53:57.134598] GLRenderer: EGL vendor: Android
+[2018-11-30 15:53:57.134784] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-11-30 15:53:57.134852] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-11-30 15:53:57.134921] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-11-30 15:53:57.134983] GLRenderer: GL vendor: Qualcomm
+[2018-11-30 15:53:57.135040] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-11-30 15:53:57.135097] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-11-30 15:53:57.135155] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-11-30 15:53:57.135213] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-11-30 15:53:57.135278] GLRenderer: GL max texture size = 4096
+[2018-11-30 15:53:57.135340] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-12-01 00:22:52.258560] GLRenderer: EGL vendor: Android
+[2018-12-01 00:22:52.258911] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-12-01 00:22:52.259019] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-12-01 00:22:52.259098] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-12-01 00:22:52.259164] GLRenderer: GL vendor: Qualcomm
+[2018-12-01 00:22:52.259226] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-12-01 00:22:52.259289] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-12-01 00:22:52.259350] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-12-01 00:22:52.259414] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-12-01 00:22:52.259597] GLRenderer: GL max texture size = 4096
+[2018-12-01 00:22:52.259667] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-12-01 01:05:39.597180] GLRenderer: EGL vendor: Android
+[2018-12-01 01:05:39.597382] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-12-01 01:05:39.597453] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-12-01 01:05:39.597527] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-12-01 01:05:39.597592] GLRenderer: GL vendor: Qualcomm
+[2018-12-01 01:05:39.597654] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-12-01 01:05:39.597717] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-12-01 01:05:39.597778] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-12-01 01:05:39.597842] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-12-01 01:05:39.597908] GLRenderer: GL max texture size = 4096
+[2018-12-01 01:05:39.597974] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-12-01 01:18:30.303090] GLRenderer: EGL vendor: Android
+[2018-12-01 01:18:30.303263] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-12-01 01:18:30.303341] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-12-01 01:18:30.303423] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-12-01 01:18:30.303495] GLRenderer: GL vendor: Qualcomm
+[2018-12-01 01:18:30.303559] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-12-01 01:18:30.303797] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-12-01 01:18:30.303864] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-12-01 01:18:30.303932] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-12-01 01:18:30.304000] GLRenderer: GL max texture size = 4096
+[2018-12-01 01:18:30.304071] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-12-01 01:21:50.756965] GLRenderer: EGL vendor: Android
+[2018-12-01 01:21:50.757177] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-12-01 01:21:50.757249] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-12-01 01:21:50.757322] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-12-01 01:21:50.757388] GLRenderer: GL vendor: Qualcomm
+[2018-12-01 01:21:50.757450] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-12-01 01:21:50.757512] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-12-01 01:21:50.757573] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-12-01 01:21:50.757636] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-12-01 01:21:50.757704] GLRenderer: GL max texture size = 4096
+[2018-12-01 01:21:50.757770] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
+[2018-12-01 01:26:04.857133] GLRenderer: EGL vendor: Android
+[2018-12-01 01:26:04.857411] GLRenderer: EGL version: 1.4 Android META-EGL
+[2018-12-01 01:26:04.857481] GLRenderer: EGL client APIs: OpenGL_ES
+[2018-12-01 01:26:04.857555] GLRenderer: EGL extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_HYBRIS_native_buffer2 EGL_HYBRIS_WL_acquire_native_buffer EGL_WL_bind_wayland_display 
+[2018-12-01 01:26:04.857621] GLRenderer: GL vendor: Qualcomm
+[2018-12-01 01:26:04.857682] GLRenderer: GL renderer: Adreno (TM) 330
+[2018-12-01 01:26:04.857744] GLRenderer: GL version: OpenGL ES 2.0 (OpenGL ES 3.0 V@84.0 AU@05.01.00.042.030 (CL@))
+[2018-12-01 01:26:04.857806] GLRenderer: GLSL version: OpenGL ES GLSL ES 3.00
+[2018-12-01 01:26:04.857870] GLRenderer: GL extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_filter_anisotropic GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_disjoint_timer_query 
+[2018-12-01 01:26:04.857937] GLRenderer: GL max texture size = 4096
+[2018-12-01 01:26:04.858002] GLRenderer: GL framebuffer bits: RGBA=8888, depth=0, stencil=0
